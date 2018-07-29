@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
 var element = "mars"
@@ -40,4 +41,14 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 
 function removeElementFromEndOfArray(array) {
   return array.slice(0, array.length -1)
+=======
+var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles","foo" ]
+
+function addElementToBeginningOfArray(array,element) {
+  return ["MilkyWay",...chocolateBars]
+}
+
+function destructivelyAddElementToBeginningOfArray() {
+  return chocolateBars.unshift("MilkyWay");
+>>>>>>> bd2ac8706d2e52869e4b8585e548cba3212db1ff
 }
